@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            color: darkblue;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+<h1>Usando links externos</h1>
+<p>Acesse o <a href="https://www.w3schools.com/html/" hreflang="en" target="_blank" rel="external">site da W3C</a> para mais informações sobre HTML</p>
+<p>Acesse, também, o <a href="https://www.youtube.com/user/cursosemvideo" hreflange="pt" target="_blank" rel="external">canal no Youtube</a> do meu professor de HTML5, Gustavo Guanabara.</p>
+<h1>Usando links internos</h1>
+<p>Para acessar a página sobre informações, click <a href="pag002.html" target="_self" rel="next">aqui</a></p>
+<h1>Usando links para downloads</h1><!--iana.org/assignments/media-types (site para inf sobre link para donw)-->
+   <ul>
+       <li><a href="livro/meulivro.pdf" pdfdownload="meulivro.pdf" type="application">Baixar o livro em PDF</a></li>
+       <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Baixar o livro em ZIP</a></li>
+   </ul>
+</body>
+</html>
